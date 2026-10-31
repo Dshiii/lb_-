@@ -1,0 +1,4 @@
+[
+  { "asset": "M-201", "caption": "Лекция", "sizeMiB": 1024, "mode": "online" },
+  { "asset": "M-202", "caption": "Слайд", "sizeMiB": 256, "mode": "queued" }
+]
