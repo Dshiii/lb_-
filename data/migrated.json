@@ -1,0 +1,4 @@
+[
+  { "id": "M-201", "label": "Лекция", "memoryGiB": 1, "status": "active" },
+  { "id": "M-202", "label": "Слайд", "memoryGiB": 0.25, "status": "paused" }
+]
