@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    { "from": "asset", "to": "id", "op": "copy" },
+    { "from": "caption", "to": "label", "op": "copy" },
+    { "from": "sizeMiB", "to": "memoryGiB", "op": "scale", "fromUnit": "MiB", "toUnit": "GiB" },
+    { "from": "mode", "to": "status", "op": "enum", "map": { "online": "active", "queued": "paused" } }
+  ]
+}
